@@ -34,9 +34,12 @@ Ionic uses a configuration file to manage environment variables. These variables
 
 ## Running Your Frontend in Dev Mode
 
-Ionic ships with a useful development server which detects changes and transpiles as you work. The application is then accessible through the browser on a localhost port. To run the development server, cd into the `frontend` directory and run:
+Ionic ships with a useful development server which detects changes and transpiles as you work. The application is then accessible through the browser on a localhost port. To run the development server, cd into the `frontend` directory and install and run:
 
 ```bash
+# install ionic
+sudo npm install -g ionic
+# run server
 ionic serve
 ```
 
